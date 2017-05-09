@@ -662,8 +662,8 @@ void onMouseMotion(int x, int y)
 		tempy = y;
 	}
 	else if (mode == 3) {
-		rotx += (x - tempx)/100;
-		roty -= (y - tempy)/100;
+		roty += (x - tempx)/100;
+		rotx -= (y - tempy)/100;
 		
 		tempx = x;
 		tempy = y;
